@@ -1,0 +1,15 @@
+# Environment, recorded 2026-09-26
+Linux 5.15.0-181-generic
+gcc (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0
+Climate Data Operators version 2.0.4 (https://mpimet.mpg.de/cdo)
+Python 3.10.12
+matplotlib==3.10.9
+netCDF4==1.7.4
+numpy==2.2.6
+pandas==2.3.3
+LPJ-GUESS r13130 (Zenodo 14411974) + libraries from 4.1.1 + patch: modules/cfinput.cpp line 668 (searchradius removed)
+caf61b301eb6bd1f55e29243a5129a69  model_r13130/LPJ-GUESS_codeR13130.zip
+e8cf5fb85a56f80d913985dc6c31f334  data/ndep/GlobalNitrogenDeposition.zip
+d4e4407c7dc22e8a7b61153514d1160d  data/climate/pr_lishui_daily_1901_2019.nc
+9cd86b4e8c22ef78032525a0ccfe7ca3  data/climate/rsds_lishui_daily_1901_2019.nc
+13a95a1623d09d5c63703c4235ae7b6a  data/climate/tas_lishui_daily_1901_2019.nc

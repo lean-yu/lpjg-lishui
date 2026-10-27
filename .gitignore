@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+
+# Run outputs and data (regenerate via scripts)
+runs_main/
+runs_co2fix/
+runs_regen/
+runs_main_stale/
+exp/
+exp_base/
+calib/
+checks/
+rot/
+rotland/
+pulse/
+export/
+batch/
+trans_test/
+co2fix/
+regen/
+data/
+model/
+model_r13130/
+
+# Logs and bundles
+*.log
+*.tar.gz
+context.txt
+
+# OS
+.DS_Store

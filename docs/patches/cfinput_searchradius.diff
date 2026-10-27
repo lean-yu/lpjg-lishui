@@ -1,0 +1,11 @@
+--- cfinput.cpp.orig	2026-09-25 19:47:26.228700897 +0800
++++ cfinput.cpp.orig2	2026-09-26 03:19:43.902125879 +0800
+@@ -665,7 +665,7 @@
+ 	}
+ 	else {
+ 		size_t x, y;
+-		cf_temp->get_index_for_coords(input.gridlist.getobj().lon, input.gridlist.getobj().lat, x, y, searchradius);
++		cf_temp->get_index_for_coords(input.gridlist.getobj().lon, input.gridlist.getobj().lat, x, y);
+ 		rlon = x;
+ 		rlat = y;
+ 	}

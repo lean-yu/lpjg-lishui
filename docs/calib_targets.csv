@@ -1,0 +1,15 @@
+source,region,variable,age_group,age_min,age_max,value,unit,note
+Diao2022,Lishui,living_biomass_C,young,0,10,7.81,Mg C/ha,IBIS calibrated to 26 inventory plots (Table 1)
+Diao2022,Lishui,living_biomass_C,middle,11,20,20.01,Mg C/ha,Table 1
+Diao2022,Lishui,living_biomass_C,near_mature,21,25,35.64,Mg C/ha,Table 1
+Diao2022,Lishui,living_biomass_C,mature,26,35,55.51,Mg C/ha,Table 1
+Diao2022,Lishui,living_biomass_C,over_mature,36,100,94.67,Mg C/ha,Table 1
+Diao2022,Lishui,soil_C,all,,,63.65,Mg C/ha,1989-2019 mean (Table 2)
+Diao2022,Lishui,litter_C,all,,,9.72,Mg C/ha,1989-2019 mean (Table 2)
+Li2016,Zhejiang,tree_layer_C_planted,young,0,10,9.87,t C/ha,Table 5; age groups assumed per LY/T 2908
+Li2016,Zhejiang,tree_layer_C_planted,middle,11,20,22.16,t C/ha,Table 5
+Li2016,Zhejiang,tree_layer_C_planted,near_mature,21,25,31.76,t C/ha,Table 5
+Li2016,Zhejiang,tree_layer_C_planted,mature,26,35,26.63,t C/ha,Table 5
+Li2016,Zhejiang,tree_layer_C_planted,over_mature,36,100,35.09,t C/ha,Table 5
+Li2016,Zhejiang,soil_C_0_100cm,all,,,98.96,t C/ha,SD 27.14 (Table 3)
+Li2016,Zhejiang,litter_C,all,,,2.68,t C/ha,SD 1.09 (Table 3)

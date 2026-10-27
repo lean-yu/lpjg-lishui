@@ -1,0 +1,11 @@
+--- cfinput.cpp.orig2	2026-09-26 03:19:43.902125879 +0800
++++ cfinput.cpp	2026-09-26 03:19:43.906125894 +0800
+@@ -631,7 +631,7 @@
+ 	// Get nitrogen deposition, using the found CRU coordinates
+ 	/* Since the historic data set does not reach decade 2010-2019,
+ 	* we need to use the RCP data for the last decade. */
+-	if(!ndep.getndep(param["file_ndep"].str, cru_lon, cru_lat, Lamarque::RCP60))
++	if(!ndep.getndep(param["file_ndep"].str, cru_lon, cru_lat, Lamarque::parse_timeseries(ndep_timeseries)))
+ 		return false;
+ #endif
+ 	historic_timestep_temp = -1;
